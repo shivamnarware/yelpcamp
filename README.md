@@ -50,4 +50,5 @@ A different sets of routes are made for comments to Edit, Add, delete the commen
 
 ## Database
 * MongoDB (NON- Relational DB) Here mongodb is implemented using a node package 'mongoose' to make request to mongodb server using JS.
+
 So here for each entity in yelpcamp a Schema is made which consists of the key-value pair for that entity like name,age,date,etc. then each Schema is created into a Model ( it means to add functions like create,edit,delete,findbyid,deletebyid,etc to each schema in this Yelpcamp ). then using those function data is been added to the database. like - Campground.find({}, function(err, allCampgrounds).
